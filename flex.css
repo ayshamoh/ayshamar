@@ -1,0 +1,35 @@
+
+body{
+    background:linear-gradient(to left,darkred, darksalmon,lightcoral, darksalmon,darkred);
+}
+h1{text-align: center;
+    text-decoration: dashed;
+    color:maroon;
+    text-transform: uppercase;
+    
+}
+#one{flex-basis: 20%;
+    display: flex;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+#two{margin-top: 50px;
+    display: flex;
+    background-color:lavenderblush;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+img{margin-left: 10px;
+    height: 200px;
+    width: 200px;
+}
+h3{text-transform: capitalize;
+    text-decoration: underline;
+    color: brown;
+    cursor: grabbing;
+    text-align: center;
+
+}
